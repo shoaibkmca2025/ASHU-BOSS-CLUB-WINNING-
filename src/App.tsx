@@ -64,12 +64,12 @@ const INITIAL_PROFIT_DATA = [
 
 export default function App() {
   const kpis = useMemo(() => {
-    const totalMatches = Math.floor(Math.random() * (96000 - 52000 + 1)) + 52000;
+    const colourPredictionCount = Math.floor(Math.random() * (15000 - 1500 + 1)) + 1500;
     const winningAccuracy = Math.floor(Math.random() * (94 - 78 + 1)) + 78;
     const rating = (Math.random() * (5.0 - 4.2) + 4.2).toFixed(1);
 
     return [
-      { label: 'Total Matches', value: totalMatches.toLocaleString('en-IN') },
+      { label: 'Colour Prediction', value: colourPredictionCount.toLocaleString('en-IN') },
       { label: 'Winning Accuracy', value: `${winningAccuracy}%` },
       { label: 'Rating', value: `${rating}★` },
     ];
