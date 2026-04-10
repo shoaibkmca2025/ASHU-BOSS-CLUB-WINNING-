@@ -111,8 +111,8 @@ export default function App() {
             transition={{ delay: 0.1 }}
             className="text-center space-y-1.5 md:space-y-3"
           >
-            <h1 className="text-[clamp(1rem,5.2vw,2.25rem)] font-black text-white tracking-tight uppercase flex items-center justify-center gap-1.5 whitespace-nowrap leading-none">
-              <span className="text-[clamp(0.9rem,4vw,1.8rem)]">🏏</span> ASHU BOSS (CLUB WINNING 🏆)
+            <h1 className="text-[clamp(1rem,5.2vw,2.25rem)] font-black text-white tracking-tight uppercase flex items-center justify-center whitespace-nowrap leading-none">
+              ASHU BOSS (CLUB WINNING 🏆)
             </h1>
             <div className="flex items-center justify-center gap-2 text-[#f59e0b] font-black text-[10px] md:text-sm uppercase tracking-[0.2em]">
               <Users size={14} className="md:w-5 md:h-5" />
@@ -208,7 +208,7 @@ export default function App() {
               © 2026 ASHU BOSS (CLUB WINNING 🏆). All rights reserved.
             </p>
             <p className="text-[#c6d0cb] text-[10px] md:text-xs font-medium flex items-center gap-2">
-              <span>🏏</span> Professional Cricket Analysis
+              Professional Colour Prediction
             </p>
           </motion.div>
         </div>
