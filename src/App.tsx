@@ -41,7 +41,7 @@ function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-const TELEGRAM_LINK = "https://t.me/+_m6CEEiz2rM5OTdl";
+const TELEGRAM_LINK = "https://t.me/+wLtZ0Xg-25xmMzc1";
 const LOGO_IMAGE = LogoImage; 
 
 const BAR_DATA = [
